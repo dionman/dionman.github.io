@@ -71,7 +71,7 @@
 
 	#research {
 		-ms-behavior: url("assets/js/ie/backgroundsize.min.htc");
-		background: url("../../images/one.jpg");
+		background: url("../../images/two.jpg");
 		background-size: cover;
 	}
 
