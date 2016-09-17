@@ -8,7 +8,7 @@
     // Nan: add send-to-email function to contact form button
     $('#submit_button').click(function() {
         $('#contact_form').attr('action',
-            'mailto:lilxine0416@gmail.com?subject=Hi from ' +
+            'mailto:d.manousakas@gmail.com?subject=Hi from ' +
             $('#sender_name').val());
             //+ '&body=' + $('#message').val());
         $('#contact_form').submit();
