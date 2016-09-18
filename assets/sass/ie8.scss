@@ -58,14 +58,15 @@
 			z-index: 1;
 		}
 
-		&:after {
+		&.left:before,
+		&.right:after {
 			content: '';
 			background: url('images/overlay.png');
 			width: 40%;
 			height: 40%;
 			position: absolute;
-			left: 10;
-			top: 1ß0;
+			left: 0;
+			top: 0;
 		}
 	}
 
